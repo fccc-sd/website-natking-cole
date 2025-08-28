@@ -22,8 +22,44 @@ body {
 
 ul{
     font-weight: bold;
+    list-style-type: disc;
+    list-style-position: inside;
+    list-style-image: none;
 }
 
 ol{
     font-weight: bold;
+    list-style-type: decimal-leading-zero;
+}
+img{
+    vertical-align: middle;
+}
+    
+nav{
+    background-color:rgb(199, 99, 119);
+
+}
+nav {
+     line-height: 2em;
+     display: block;
+}
+
+nav li {
+    display: inline;
+    padding-right: 150px;
+    list-style-type: none;
+}
+
+nav a:link {
+    color:hwb(0 90% 2%);
+    text-decoration: none;
+}
+
+nav a:visited {
+    color:hwb(0 90% 2%);
+}
+
+nav a:hover {
+    color:rgb(253, 162, 255);
+    text-decoration: underline;    
 }
