@@ -1,3 +1,5 @@
+/* Line height, font style, font family, and font size 
+also background color, and color*/
 h1 {
     color:rgb(255, 255, 255);
 
@@ -5,12 +7,16 @@ h1 {
 
     background-color: rgb(236, 158, 171);
 
+    line-height: 2.4em;
+    font-style: italic;
+    font-size: 2.1em;
+
   font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 h2 {
     color:rgb(185, 109, 81);
-
+   
     font-family:'Courier New', Courier, monospace;
 }
 
@@ -19,8 +25,9 @@ body {
 
     color: rgb(139, 0, 69);
 }
-
+/* font weight*/
 ul{
+    
     font-weight: bold;
     list-style-type: disc;
     list-style-position: inside;
@@ -40,13 +47,13 @@ nav{
 
 }
 nav {
-     line-height: 2em;
+     line-height: 2.3em;
      display: block;
 }
 
 nav li {
     display: inline;
-    padding-right: 150px;
+    padding-right: 140px;
     list-style-type: none;
 }
 
@@ -62,4 +69,16 @@ nav a:visited {
 nav a:hover {
     color:rgb(253, 162, 255);
     text-decoration: underline;    
+}
+
+/* div container */
+
+#myHobbies{
+    font-size: 1em;
+}
+
+/* Span Container */
+
+#emphasize{
+    font-style: italic;
 }
