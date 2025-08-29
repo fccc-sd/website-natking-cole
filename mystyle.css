@@ -31,7 +31,7 @@ ul{
     font-weight: bold;
     list-style-type: disc;
     list-style-position: inside;
-    list-style-image: none;
+    list-style-image: url(star.gif);
 }
 
 ol{
